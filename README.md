@@ -2,7 +2,7 @@
 
 ### Creacion y activación de un env en conda
 
-`conda create -n CompVision python=3.9`
+`conda create -n CompVision python=3.10`
 
 `conda activate CompVision`
 
