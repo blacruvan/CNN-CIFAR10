@@ -1,4 +1,8 @@
 .DS_Store
 venv/
 .vscode/
+__pycache__
+mnist_data
+models/data
+models/mnist_data
 CUDA.ipynb
