@@ -15,9 +15,9 @@ class TransformConfig:
 
     def _create_composed_train_transform(self):
         return transforms.Compose([
-            transforms.Resize((self.image_size, self.image_size)),  # Resize the image to image_size x image_size
-            transforms.RandomRotation(20),  # Randomly rotate some images by 20 degrees
-            transforms.RandomHorizontalFlip(0.1),  # Randomly horizontal flip the images
+            transforms.Resize((self.image_size, self.image_size)),
+            transforms.RandomRotation(20),
+            transforms.RandomHorizontalFlip(0.1),
             transforms.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1), 
             transforms.RandomAdjustSharpness(sharpness_factor=2, p=0.1),
             transforms.ToTensor(), 

@@ -6,3 +6,5 @@ mnist_data
 models/data
 models/mnist_data
 CUDA.ipynb
+data/cifar-10-batches-py/data_batch_1
+/data
